@@ -37,31 +37,3 @@
     transform: rotate(360deg);
   }
 }
-
-/* Footer */
-li,
-footer {
-  font-size: 13px;
-  color: rgb(175, 169, 169);
-  line-height: 30px;
-}
-
-b {
-  color: rgb(0, 0, 0);
-  font-weight: normal;
-  font-size: 14px;
-}
-
-.icon {
-  word-spacing: 30px;
-}
-
-a:link {
-  color: black;
-}
-
-/* India's 1 row css */
-.row2 {
-  margin-top: 30px;
-  margin-bottom: 30px;
-}

@@ -1,26 +1,51 @@
-li,
-footer {
+
+/* footer heading css */
+.lightb {
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    font-size: 12px;
+    margin-top: 30px;
+
+}
+
+/* social media icon css */
+.black-icon {
+    color: black;
+}
+.icon {
+    word-spacing: 10px;
+    float: right;
+
+}
+
+/* footer main content link css */
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
+li {
     font-size: 13px;
     color: rgb(175, 169, 169);
     line-height: 30px;
 }
 
-.lightb {
-    color: rgb(0, 0, 0);
-    font-weight: normal;
-    font-size: 14px;
+/* down last footer (after hr)*/
+.bottom {
+    font-size: 13px;
+    color: rgb(175, 169, 169);
+    line-height: 30px;
 }
 
-.icon {
-    word-spacing: 40px;
-}
-
-a:link {
-    color: black;
-}
-
-/* India's 1 row css */
-.row2 {
-    margin-top: 30px;
-    margin-bottom: 30px;
+/* footer fixed at bottom css */
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px;
+    background-color: rgb(244, 242, 242);
 }
